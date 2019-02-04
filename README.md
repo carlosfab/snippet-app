@@ -1,4 +1,8 @@
-# SnippetApp
+<p align="center">
+  <img src="under_construction.png" >
+</p>
+
+# Snippet App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
