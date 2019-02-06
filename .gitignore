@@ -41,3 +41,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+server/routes/credentials.js
+./server/routes/credentials.js

@@ -5,6 +5,8 @@ const http = require('http');
 
 const app = express();
 
+const api = require('./server/routes/api');
+
 // Parsers
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -13,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // Set our api routes
-// app.use('/api', api)
+app.use('/api', api)
 
 // Return other routes to Angular index files
 app.get('*', (req, res) => {
